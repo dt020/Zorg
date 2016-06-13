@@ -1059,13 +1059,15 @@ Vijfde  bespreking 1 maart 2016</documentation>
 Tweede bespreking 18 februari 2016&#xD;
 Derde bespreking 15 maart 2016</documentation>
         </element>
-        <element xsi:type="archimate:BusinessProcess" id="9806b5fd" name="Bespreking MT Zorg"/>
-        <element xsi:type="archimate:BusinessProcess" id="be87536c" name="Bespreking MT IVE"/>
-        <element xsi:type="archimate:BusinessProcess" id="356e6630" name="Vaststelling"/>
+        <element xsi:type="archimate:BusinessProcess" id="9806b5fd" name="Bespreking MT Zorg 22-03"/>
+        <element xsi:type="archimate:BusinessProcess" id="be87536c" name="Bespreking MT IVE 10-06"/>
+        <element xsi:type="archimate:BusinessProcess" id="356e6630" name="Vaststelling 28-06?"/>
         <element xsi:type="archimate:BusinessProcess" id="00616939" name="Projecten"/>
         <element xsi:type="archimate:BusinessProcess" id="9de3dab3" name="Besprekingen MO/BW">
           <documentation>Vanaf 3 december 2015</documentation>
         </element>
+        <element xsi:type="archimate:BusinessEvent" id="a3093ac1" name="Versie 0.9 (14 juni 2016)"/>
+        <element xsi:type="archimate:BusinessProcess" id="1730cbc2" name="Review Zorg - MT'ers"/>
       </folder>
       <element xsi:type="archimate:BusinessProcess" id="1e218a18" name="Ondersteuning / voorziening aanvragen"/>
       <element xsi:type="archimate:BusinessProcess" id="64bf3951" name="Zelfredzaamheid bepalen"/>
@@ -9721,28 +9723,28 @@ Versie 20160222</content>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="de529866" name="Proces Totstandkoming Domeinarchitectuur">
       <child xsi:type="archimate:DiagramObject" id="7b39bd79" textAlignment="2" archimateElement="f2645804">
-        <bounds x="120" y="199" width="120" height="55"/>
+        <bounds x="168" y="199" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="838dca16" textAlignment="2" archimateElement="41ac6d49">
-        <bounds x="264" y="199" width="120" height="55"/>
+        <bounds x="300" y="199" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="31637fe1" textAlignment="2" archimateElement="d87e4c3d">
-        <bounds x="408" y="199" width="120" height="55"/>
+        <bounds x="432" y="199" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="f817ce7f" textAlignment="2" fillColor="#ffff80" archimateElement="f0aa0d8f">
-        <bounds x="552" y="199" width="120" height="55"/>
+        <bounds x="564" y="199" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="ddd34aa4" textAlignment="2" archimateElement="67c57410">
-        <bounds x="696" y="199" width="253" height="55"/>
+        <bounds x="696" y="199" width="217" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="6a78cacd" textAlignment="2" archimateElement="d440eddd">
-        <bounds x="756" y="336" width="217" height="55"/>
+        <bounds x="756" y="336" width="181" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="df65965f" textAlignment="2" archimateElement="be87536c">
-        <bounds x="996" y="552" width="120" height="55"/>
+        <bounds x="1236" y="408" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="ae458d7d" textAlignment="2" archimateElement="9de3dab3">
-        <bounds x="516" y="120" width="444" height="55"/>
+        <bounds x="516" y="120" width="733" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="9c4b3a63" textAlignment="2" fillColor="#ffff80" archimateElement="84dae89e">
         <bounds x="744" y="264" width="120" height="55"/>
@@ -9751,17 +9753,23 @@ Versie 20160222</content>
         <bounds x="840" y="408" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="fc490eef" textAlignment="2" archimateElement="9806b5fd">
-        <bounds x="948" y="480" width="120" height="55"/>
+        <bounds x="972" y="408" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="74baf155" textAlignment="2" archimateElement="356e6630">
-        <bounds x="1092" y="480" width="120" height="55"/>
+        <bounds x="1308" y="552" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="347fa865" textAlignment="2" archimateElement="00616939">
-        <bounds x="1236" y="480" width="120" height="55"/>
+        <bounds x="1440" y="552" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="fb0e7185" textAlignment="1">
-        <bounds x="936" y="72" width="37" height="25"/>
+        <bounds x="1248" y="84" width="37" height="25"/>
         <content>Nu</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="21de443f" textAlignment="2" archimateElement="a3093ac1">
+        <bounds x="1272" y="480" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2a3c9f8c" textAlignment="2" archimateElement="1730cbc2">
+        <bounds x="1104" y="408" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="d7bfe53e" name="Informatiestromen mbt Toegang, doelsituatie II">
@@ -10427,6 +10435,54 @@ Versie 20160429</content>
         <bounds x="348" y="660" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="ce20312d" source="e21a18dc" target="cef69e57" relationship="4f36a1af"/>
         <sourceConnection xsi:type="archimate:Connection" id="397a3f73" source="e21a18dc" target="a99eabdb" relationship="297f9e8f"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="311e4aa4" name="Proces, regie-overdracht">
+      <child xsi:type="archimate:DiagramObject" id="e224dfb1" textAlignment="2" archimateElement="130948e0">
+        <bounds x="-360" y="96" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9d2ae1b0" textAlignment="2" archimateElement="f9637766">
+        <bounds x="-360" y="174" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="ae43fe6e" textAlignment="1">
+        <bounds x="912" y="240" width="157" height="67"/>
+        <content>Gemeente Amsterdam&#xD;
+Zorgdomein&#xD;
+Proces Overdracht van regie&#xD;
+Versie 20160610</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a414977e" textAlignment="2" archimateElement="681dafd3">
+        <bounds x="-216" y="174" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fb8300b6" textAlignment="2" archimateElement="450aacdb">
+        <bounds x="-84" y="174" width="132" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f7fc1a51" textAlignment="2" archimateElement="da00861c">
+        <bounds x="299" y="174" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="65ff0743" textAlignment="2" archimateElement="f7ec4fb7">
+        <bounds x="61" y="174" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="dad5d759" textAlignment="2" archimateElement="109a6422">
+        <bounds x="418" y="252" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2ce9603b" textAlignment="2" archimateElement="548e4978">
+        <bounds x="805" y="174" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d5bd91ba" textAlignment="2" archimateElement="fe85567f">
+        <bounds x="550" y="252" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="361036c1" textAlignment="2" archimateElement="a0e0f66c">
+        <bounds x="-360" y="252" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1f382e10" textAlignment="2" archimateElement="c591123b">
+        <bounds x="180" y="96" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1d5197bd" textAlignment="2" archimateElement="3d01d315">
+        <bounds x="636" y="174" width="156" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0a369d16" textAlignment="2" archimateElement="24fa8f56">
+        <bounds x="937" y="174" width="132" height="55"/>
       </child>
     </element>
   </folder>
