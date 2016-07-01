@@ -120,6 +120,7 @@ Jochem 20151123: &quot;De verantwoordelijkheid van de BO “Afhandeling aanvrage
       <element xsi:type="archimate:BusinessFunction" id="6d1ab8e1" name="Subsidieproces"/>
       <element xsi:type="archimate:BusinessFunction" id="d28f7ef2" name="Toeleiding Dagbesteding"/>
       <element xsi:type="archimate:BusinessFunction" id="6ef8272f" name="Toeleiding AO en HbH"/>
+      <element xsi:type="archimate:BusinessFunction" id="e412abbe" name="Implementatie"/>
     </folder>
     <folder name="Producten en diensten" id="3f372085">
       <folder name="Diensten van aanbieders aan burgers" id="52eae89a">
@@ -2842,7 +2843,7 @@ Versie 20160627</content>
 Zorgdomein&#xD;
 Gemeentelijke interne organisatie en Verantwoordelijkheden mbt de Wmo&#xD;
 Huidige situatie 2016&#xD;
-Versie 20160418</content>
+Versie 20160701</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="5d384e8d" textAlignment="2" archimateElement="76568950">
         <bounds x="816" y="135" width="120" height="55"/>
@@ -2879,15 +2880,18 @@ Versie 20160418</content>
           <bendpoint startX="-25" startY="42" endY="-51"/>
         </sourceConnection>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="8496e9c5" textAlignment="2" archimateElement="be9dc126">
-        <bounds x="685" y="198" width="120" height="55"/>
-      </child>
       <child xsi:type="archimate:DiagramObject" id="e014c73f" textAlignment="2" targetConnections="7ffe6e4e" archimateElement="a3114482">
         <bounds x="960" y="576" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="bf80bab6" source="e014c73f" target="78682378" relationship="d14413fa"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="78682378" textAlignment="2" targetConnections="bf80bab6" archimateElement="6d1ab8e1">
         <bounds x="960" y="660" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0353ec06" textAlignment="2" archimateElement="e412abbe">
+        <bounds x="685" y="198" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8496e9c5" textAlignment="2" archimateElement="be9dc126">
+        <bounds x="697" y="225" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="6380d104" name="Verantwoordelijkheden vs IV-systemen, huidige situatie (2016)">
