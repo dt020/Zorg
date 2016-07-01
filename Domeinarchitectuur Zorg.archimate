@@ -121,6 +121,7 @@ Jochem 20151123: &quot;De verantwoordelijkheid van de BO “Afhandeling aanvrage
       <element xsi:type="archimate:BusinessFunction" id="d28f7ef2" name="Toeleiding Dagbesteding"/>
       <element xsi:type="archimate:BusinessFunction" id="6ef8272f" name="Toeleiding AO en HbH"/>
       <element xsi:type="archimate:BusinessFunction" id="e412abbe" name="Implementatie"/>
+      <element xsi:type="archimate:BusinessFunction" id="9dd889a5" name="Organisatie informele zorg"/>
     </folder>
     <folder name="Producten en diensten" id="3f372085">
       <folder name="Diensten van aanbieders aan burgers" id="52eae89a">
@@ -772,6 +773,7 @@ Stichting De Omslag is de initiatiefnemer en eigenaar van de website jekuntmeer.
       <element xsi:type="archimate:BusinessActor" id="71cd81be" name="Aanbieders"/>
       <element xsi:type="archimate:BusinessActor" id="e5cd85f3" name="Volksbond"/>
       <element xsi:type="archimate:BusinessActor" id="09f1f624" name="Arkin"/>
+      <element xsi:type="archimate:BusinessActor" id="331ef8a9" name="Stadsdelen"/>
     </folder>
     <folder name="Rollen" id="e752f1b8">
       <element xsi:type="archimate:BusinessRole" id="130948e0" name="Cliënt">
@@ -2353,6 +2355,8 @@ en http://www.amsterdam.nl/publish/pages/542598/koersbesluit_amsterdamse_zorg_no
     <element xsi:type="archimate:RealisationRelationship" id="b94f7da8" source="3873da5d" target="cdeed40e"/>
     <element xsi:type="archimate:UsedByRelationship" id="c9aba96c" source="cdeed40e" target="49bfbe20"/>
     <element xsi:type="archimate:UsedByRelationship" id="21cdf1b3" name="       VOT tbv Plaatsing" source="49bfbe20" target="001f7b58"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="2641c557" source="331ef8a9" target="9dd889a5"/>
+    <element xsi:type="archimate:AggregationRelationship" id="70d2448a" source="280eee9f" target="331ef8a9"/>
   </folder>
   <folder name="Views" id="bb240460" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="53ac7029" name="Speelveld Actoren en rollen mbt Wmo">
@@ -2753,13 +2757,16 @@ Versie 20160627</content>
         <bounds x="12" y="15" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="fdad9722" source="88e50e5f" target="d6fa5788" relationship="2b2f3fe6"/>
         <sourceConnection xsi:type="archimate:Connection" id="f26050bf" source="88e50e5f" target="7482ce0a" relationship="277cc542"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7fb0178a" source="88e50e5f" target="84fd13ce" relationship="70d2448a">
+          <bendpoint startX="48" startY="726" endX="-264" endY="-3"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="86285c4d" textAlignment="2" targetConnections="02e421d7" archimateElement="d45b946e">
         <bounds x="324" y="15" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="b2d20ffd" source="86285c4d" target="58430c81" relationship="5ffd677a"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="7482ce0a" textAlignment="2" targetConnections="f26050bf" archimateElement="8036cecc">
-        <bounds x="12" y="96" width="120" height="55"/>
+        <bounds x="12" y="96" width="97" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="8a589269" textAlignment="2" targetConnections="6c9e310a" archimateElement="4bcf5d1e">
         <bounds x="648" y="96" width="120" height="55"/>
@@ -2798,7 +2805,7 @@ Versie 20160627</content>
           <bendpoint startY="474" endX="-156" endY="-3"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="54fb9eda" source="d6fa5788" target="60cfbded" relationship="465526ef">
-          <bendpoint startX="-36" startY="534" endX="-192" endY="-27"/>
+          <bendpoint startX="-36" startY="558" endX="-192" endY="-3"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="16c62e96" textAlignment="2" targetConnections="6965a5e5" archimateElement="a46402fa">
@@ -2838,7 +2845,7 @@ Versie 20160627</content>
         <sourceConnection xsi:type="archimate:Connection" id="7ffe6e4e" source="f8fd4666" target="e014c73f" relationship="9607ad2f"/>
       </child>
       <child xsi:type="archimate:Note" id="26b3e5b2" font="1|Segoe UI|11.0|0|WINDOWS|1|-22|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1">
-        <bounds x="12" y="588" width="276" height="127"/>
+        <bounds x="960" y="15" width="169" height="175"/>
         <content>Gemeente Amsterdam&#xD;
 Zorgdomein&#xD;
 Gemeentelijke interne organisatie en Verantwoordelijkheden mbt de Wmo&#xD;
@@ -2892,6 +2899,13 @@ Versie 20160701</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="8496e9c5" textAlignment="2" archimateElement="be9dc126">
         <bounds x="697" y="225" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="84fd13ce" textAlignment="2" targetConnections="7fb0178a" archimateElement="331ef8a9">
+        <bounds x="324" y="744" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2e347e26" source="84fd13ce" target="8b0e16c0" relationship="2641c557"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8b0e16c0" textAlignment="2" targetConnections="2e347e26" archimateElement="9dd889a5">
+        <bounds x="492" y="744" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="6380d104" name="Verantwoordelijkheden vs IV-systemen, huidige situatie (2016)">
