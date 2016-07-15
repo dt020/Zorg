@@ -453,7 +453,9 @@ De website is ontwikkeld door KING met behulp van Swing Dashboard van ABF Resear
 Met voor aanbieders een interessante koppeling-mogelijkheid, volgens https://amsterdam.jekuntmeer.nl/over-jekuntmeer: “Link met eigen site&#xD;
 Tegenwoordig hebben de meeste organisaties in zorg en welzijn een eigen website waar de activiteiten ook gevonden kunnen worden. Dat betekent vaak twee keer activiteiten invoeren; op de eigen site en op jekuntmeer.nl. Via een speciale module kan de eigen website worden gekoppeld met jekuntmeer.nl. Wanneer de eigen site wordt geactualiseerd, worden de wijzigingen automatisch doorgevoerd op jekuntmeer.nl. Dus één keer invoeren betekent resultaat op twee websites.”&#xD;
 &#xD;
-Jekuntmeer.nl is een product van Stichting De Omslag.</documentation>
+Jekuntmeer.nl is een product van Stichting De Omslag.&#xD;
+&#xD;
+Volgens https://www.amsterdam.nl/bestuur-organisatie/organisatie/sociaal/onderwijs-jeugd-zorg/wegwijs-in-de-wmo/nieuws-wegwijswmo/jekuntmeer-nl/: &quot;&quot;</documentation>
         </element>
         <element xsi:type="archimate:BusinessService" id="8c9d0ca2" name="2nd opinion"/>
       </folder>
@@ -767,7 +769,7 @@ Knelpunt is dat ze geen toegang hebben tot Zylab.</documentation>
       <element xsi:type="archimate:BusinessActor" id="5f16ae1f" name="Stichting De Omslag">
         <documentation>Volgens http://deomslag.nl/nl/over/wat-doet-de-omslag: &quot;Stichting De Omslag is een onafhankelijke, ideële project- en netwerkorganisatie voor vraagstukken op het gebied van participatie en werk. De Omslag is de spil voor een groot aantal organisaties in de geestelijke gezondheidszorg, maatschappelijke opvang, verslavingszorg, gehandicaptenzorg, welzijn en onderwijs.&quot;&#xD;
 &#xD;
-Stichting De Omslag is de initiatiefnemer en eigenaar van de website jekuntmeer.nl.</documentation>
+Stichting De Omslag is de initiatiefnemer en eigenaar van de website http://jekuntmeer.nl.</documentation>
       </element>
       <element xsi:type="archimate:BusinessActor" id="b284acd0" name="???"/>
       <element xsi:type="archimate:BusinessActor" id="71cd81be" name="Aanbieders"/>
@@ -1513,6 +1515,9 @@ Aan de broncode te zien is dit een Oracle Apex applicatie.</documentation>
     <element xsi:type="archimate:ApplicationCollaboration" id="df863fef" name="PC"/>
     <element xsi:type="archimate:ApplicationComponent" id="a5155f10" name="Browser"/>
     <element xsi:type="archimate:ApplicationCollaboration" id="6e43a992" name="Werkplek"/>
+    <element xsi:type="archimate:ApplicationComponent" id="ccae1602" name="Landelijk Register van Zorgaanbieders (LRZa)">
+      <documentation>Het ministerie van Volksgezondheid, Welzijn en Sport werkt aan een landelijk register waarin alle zorgaanbieders zijn opgenomen. Het register zal tevens alle vestigingen bevatten waar zorg wordt geleverd onder verantwoordelijkheid van de zorgaanbieder. De LRZa is een virtueel register (aanbodgestuurd knooppunt) dat andere bronnen ontsluit, maar de gegevens hieruit niet kopieert. Belangrijke bronnen hiervoor zijn het Handelsregister (KvK), het AGB-register (Vektis) en het BIG-register (CIBG).</documentation>
+    </element>
   </folder>
   <folder name="Technology" id="9e917645" type="technology">
     <element xsi:type="archimate:Artifact" id="e9afe16c" name="Bestand"/>
@@ -6043,8 +6048,8 @@ Versie 20160509</content>
         <content>Gemeente Amsterdam&#xD;
 Maatschappelijke Opvang / Beschermd Wonen&#xD;
 Organisatie en Verantwoordelijkheden mbt MO/BW&#xD;
-Huidige situatie 2015&#xD;
-Versie 20160215</content>
+Huidige situatie 2016&#xD;
+Versie 20160714</content>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="9d8b5757" name="Belangrijkste verantwoordelijkheden + IV rondom WMO voorzieningen, doelsituatie">
