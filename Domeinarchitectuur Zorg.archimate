@@ -1266,14 +1266,24 @@ Jochem 20151118: &quot;Indicatieorgaan maakt ook gebruik van RIS, om indicatieve
 &#xD;
 </documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" id="2fa0f90d" name="RIS Ouder- en Kindteams"/>
+      <element xsi:type="archimate:ApplicationComponent" id="2fa0f90d" name="RIS Ouder- en Kindteams">
+        <documentation>Speciale versie van RIS ten behoeve van de Ouder- en Kindteams. Opgetuigd in het kader van het programma Om Het Kind. Leverancier Inforing.</documentation>
+      </element>
       <element xsi:type="archimate:ApplicationComponent" id="47ab37a8" name="Databank Effectieve Jeugdinterventies"/>
       <element xsi:type="archimate:ApplicationComponent" id="cf254dc4" name="Clavis"/>
       <element xsi:type="archimate:ApplicationComponent" id="8982cdf9" name="Regioportaal"/>
-      <element xsi:type="archimate:ApplicationComponent" id="242c31c3" name="RIS Samen DOEN"/>
+      <element xsi:type="archimate:ApplicationComponent" id="242c31c3" name="RIS Samen DOEN">
+        <documentation>Speciale versie van RIS ten behoeve van de Samen DOEN teams. Leverancier Inforing.</documentation>
+      </element>
       <element xsi:type="archimate:ApplicationComponent" id="a7cb0c11" name="Landelijk Schakelpunt (LSP)"/>
       <element xsi:type="archimate:ApplicationComponent" id="12d3b6c6" name="Gemeentelijk Gegevensknooppunt (GGK)"/>
-      <element xsi:type="archimate:ApplicationComponent" id="927c1c64" name="RIS Jeugd en Gezin"/>
+      <element xsi:type="archimate:ApplicationComponent" id="927c1c64" name="RIS Jeugd en Gezin">
+        <documentation>Dit werd opgetuigd door Reef Pattiruhu. Hij zegt:&#xD;
+RIS JG wordt gebruikt door 'netwerkcoördinatoren' van de stadsdelen.&#xD;
+En de informatie er in kan ingezien worden door ketenpartners als politie, ... &#xD;
+Registratie en volgen van risicojongeren, -gezinnen en -groepen.&#xD;
+Leverancier Inforing.</documentation>
+      </element>
       <element xsi:type="archimate:ApplicationComponent" id="08f978de" name="Registratiesysteem Jeugd (van de Politie)">
         <documentation>Uit de 'Werkwijze aanpak problematische jeugd(groepen) juni 2014.doc': &quot;Er komt een melding binnen van jeugdoverlast. Vervolgens volgt er een analyse, een onderdeel hiervan is de uitvraag richting de betrokken J&amp;V partners om zoveel mogelijk informatie te verkrijgen en een beeld te vormen van de (overlast)situatie. Wanneer aan de orde ook een check in ISJG door netwerkcoördinator. Uiteraard kan er ook blijken dat er niet zoveel aan de hand is of dat een eenvoudige actie de problemen oplost.&#xD;
 &#xD;
@@ -1310,7 +1320,9 @@ De Verwijsindex Productcodes heeft een export- en importfunctie. Door het toevoe
       <element xsi:type="archimate:ApplicationComponent" id="c2925c96" name="AFS"/>
       <element xsi:type="archimate:ApplicationComponent" id="3025978b" name="Zorg / regiesysteem"/>
       <element xsi:type="archimate:ApplicationComponent" id="65cd55a0" name="Zorg / regiesysteem gemeente"/>
-      <element xsi:type="archimate:ApplicationComponent" id="806ef063" name="RIS Treiteraanpak"/>
+      <element xsi:type="archimate:ApplicationComponent" id="806ef063" name="RIS Treiteraanpak">
+        <documentation>Applicatie voor registratie en opvolging van meldingen van overlast. Leverancier Inforing. Wordt (werd?) gebruikt door Stadsdeel- en buurtregisseurs, woonconsulenten van corporaties, Meldpunten Zorg en Overlast van de stadsdelen. In het kader van de aanpak van intimidatie en overlast. Eigenaar Bestuursdienst?</documentation>
+      </element>
       <element xsi:type="archimate:ApplicationComponent" id="dcb6c07f" name="Wmo Portaal">
         <documentation>WMO Portaal is een callcenter-systeem van leverancier ???&#xD;
 WMO Portaal is primair bedoeld ter ondersteuning van de WMO Helpdesk.&#xD;
@@ -1356,6 +1368,14 @@ Aan de broncode te zien is dit een Oracle Apex applicatie.</documentation>
       <element xsi:type="archimate:ApplicationComponent" id="d9cc1739" name="GGK"/>
       <element xsi:type="archimate:ApplicationComponent" id="195e39d0" name="CORV"/>
       <element xsi:type="archimate:ApplicationComponent" id="6909ca6f" name="Focus"/>
+      <element xsi:type="archimate:ApplicationComponent" id="dc36f571" name="RIS Vroeg Erop Af">
+        <documentation>Volgens https://inforing.nl/nl/diensten/ris/ris-vroeg-eropaf/: &quot;Voorkomen financiële problemen. RIS Vroeg Erop Af hebben wij samen met de gemeente Amsterdam ontwikkeld. Dit unieke regiesysteem, waarmee al in een pril stadium wordt voorkomen dat huishoudens in financiële problemen komen, wordt zeer succesvol ingezet. Meldingen van een betalingsachterstand worden onder meer door verhuurders, energiebedrijven en zorgverzekeraars ingevoerd in RIS. De melding komt vervolgens direct terecht bij de desbetreffende hulpverlener die op huisbezoek gaat. De acties die uitgevoerd zijn door de hulpverleners worden teruggekoppeld naar de melder. RIS Vroeg Erop Af ondersteunt bovendien de gehele administratieve afhandeling en managementinformatie is opvraagbaar  met één druk op de knop.&quot;&#xD;
+&#xD;
+Gebruikers zijn Woningcorporaties, energiebedrijven, MaDi’s, AGIS. Eigenaar was DWI.</documentation>
+      </element>
+      <element xsi:type="archimate:ApplicationComponent" id="70e1b483" name="RIS Zorg &amp; Overlast">
+        <documentation>Volgens https://inforing.nl/nl/diensten/ris/ris-zorg--overlast/: &quot;Deze RIS-versie registreert meldingen en signalen van zorg- en overlastsituaties. De cases worden gevolgd en vastgelegd. Op deze manier ontstaat een helder beeld van de voorkomende problematiek en de daarbij betrokken personen en/of groepen. RIS Zorg &amp; Overlast wordt meestal gebruikt in combinatie met een andere versie van RIS.&quot;</documentation>
+      </element>
     </folder>
     <folder name="Functionaliteit" id="b91ccee3">
       <folder name="Regie-overdracht" id="137975c5">
