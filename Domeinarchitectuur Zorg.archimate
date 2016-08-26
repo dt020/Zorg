@@ -4511,7 +4511,7 @@ Versie 20151110</content>
         <sourceConnection xsi:type="archimate:Connection" id="b6cc171d" source="9be27ee6" target="e56bf9ee" relationship="2b2f3fe6"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="a2e7e1a6" name="Proces MO/BW, huidige situatie 2015">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="a2e7e1a6" name="Proces MO/BW, huidige situatie 2016">
       <child xsi:type="archimate:DiagramObject" id="065869bb" textAlignment="2" archimateElement="44b47d7f">
         <bounds x="145" y="224" width="97" height="55"/>
       </child>
@@ -4603,7 +4603,7 @@ Versie 20151110</content>
         <bounds x="13" y="932" width="277" height="80"/>
         <content>Gemeente Amsterdam&#xD;
 Zorgdomein&#xD;
-Processchets MO/BW, huidige situatie 2015&#xD;
+Processchets MO/BW, huidige situatie 2016&#xD;
 Rollen - Verantwoordelijkheden - Proces Viewpoint&#xD;
 Versie 20160219</content>
       </child>
@@ -6837,7 +6837,7 @@ Versie 20160122</content>
         <sourceConnection xsi:type="archimate:Connection" id="2f9ff1be" source="b8cb9420" target="5351fe46" relationship="e55e4266"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="b2c708ef" name="Processtappen MO/BW Toegang Verwijzingen, huidige situatie 2015">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="b2c708ef" name="Processtappen MO/BW Toegang Verwijzingen, huidige situatie 2016">
       <child xsi:type="archimate:DiagramObject" id="207d0626" textAlignment="2" archimateElement="a98d2cbb">
         <bounds x="1116" y="84" width="96" height="203"/>
       </child>
@@ -6890,7 +6890,7 @@ Versie 20160122</content>
         <bounds x="13" y="588" width="384" height="80"/>
         <content>Gemeente Amsterdam&#xD;
 Zorgdomein&#xD;
-Processtappen MO/BW Toegang bij Verwijzingen, huidige situatie 2015&#xD;
+Processtappen MO/BW Toegang bij Verwijzingen, huidige situatie 2016&#xD;
 Rollen - Verantwoordelijkheden - Proces Viewpoint&#xD;
 Versie 20160219</content>
       </child>
@@ -7030,7 +7030,7 @@ Versie 20160219</content>
       <documentation>Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
 Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="ed797773" name="Processtappen MO/BW Overdracht Toegang - Regie, huidige situatie 2015">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="ed797773" name="Processtappen MO/BW Overdracht Toegang - Regie, huidige situatie 2016">
       <child xsi:type="archimate:DiagramObject" id="bee30a57" textAlignment="2" archimateElement="1b1f9f1a">
         <bounds x="577" y="84" width="107" height="55"/>
       </child>
@@ -7133,7 +7133,7 @@ Versie 20160211</content>
       <documentation>Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
 Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="b0b987fc" name="Processtappen MO/BW Regievoering en Levering, huidige situatie 2015">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="b0b987fc" name="Processtappen MO/BW Regievoering en Levering, huidige situatie 2016">
       <child xsi:type="archimate:DiagramObject" id="ce6e3c70" textAlignment="2" archimateElement="c94bde14">
         <bounds x="409" y="312" width="97" height="55"/>
       </child>
@@ -7171,7 +7171,7 @@ Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentat
         <bounds x="26" y="656" width="277" height="80"/>
         <content>Gemeente Amsterdam&#xD;
 Zorgdomein&#xD;
-Processchets MO/BW, huidige situatie 2015&#xD;
+Processchets MO/BW, huidige situatie 2016&#xD;
 Rollen - Verantwoordelijkheden - Proces Viewpoint&#xD;
 Versie 20160105</content>
       </child>
@@ -7235,7 +7235,7 @@ Versie 20160105</content>
       <documentation>Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
 Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="190f2d71" name="Processtappen MO/BW Toegang Zelfmelders, huidige situatie 2015">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="190f2d71" name="Processtappen MO/BW Toegang Zelfmelders, huidige situatie 2016">
       <child xsi:type="archimate:DiagramObject" id="ed08cfbb" textAlignment="2" archimateElement="44b47d7f">
         <bounds x="145" y="96" width="97" height="55"/>
       </child>
@@ -7282,7 +7282,7 @@ Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentat
         <bounds x="13" y="528" width="372" height="80"/>
         <content>Gemeente Amsterdam&#xD;
 Zorgdomein&#xD;
-Processtappen MO/BW Toegang Zelfmelders, huidige situatie 2015&#xD;
+Processtappen MO/BW Toegang Zelfmelders, huidige situatie 2016&#xD;
 Rollen - Verantwoordelijkheden - Proces Viewpoint&#xD;
 Versie 20160219</content>
       </child>
@@ -7966,7 +7966,7 @@ Versie 20160310</content>
         <bounds x="57" y="426" width="120" height="55"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="30152672" name="Informatiestromen Toegang, huidige situatie (2015)">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="30152672" name="Informatiestromen Toegang, huidige situatie (2016)">
       <child xsi:type="archimate:DiagramObject" id="c30c2e96" textAlignment="2" archimateElement="2fecf875">
         <bounds x="336" y="60" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="03114c7b" source="c30c2e96" target="2c3f45cf" relationship="ad85606c"/>
