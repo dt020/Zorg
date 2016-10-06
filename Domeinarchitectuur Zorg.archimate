@@ -1459,6 +1459,24 @@ Gebruikers zijn Woningcorporaties, energiebedrijven, MaDi’s, AGIS. Eigenaar wa
       <element xsi:type="archimate:ApplicationComponent" id="70e1b483" name="RIS Zorg &amp; Overlast">
         <documentation>Volgens https://inforing.nl/nl/diensten/ris/ris-zorg--overlast/: &quot;Deze RIS-versie registreert meldingen en signalen van zorg- en overlastsituaties. De cases worden gevolgd en vastgelegd. Op deze manier ontstaat een helder beeld van de voorkomende problematiek en de daarbij betrokken personen en/of groepen. RIS Zorg &amp; Overlast wordt meestal gebruikt in combinatie met een andere versie van RIS.&quot;</documentation>
       </element>
+      <element xsi:type="archimate:ApplicationComponent" id="e0633807" name="Zorghulpwijzer">
+        <documentation>Bereikbaar via https://www.zorghulpwijzer.nl.&#xD;
+&#xD;
+Volgens een nieuwsbericht van Dienstverlening http://intranet.amsterdam.nl/dienstverlening/nieuwsbrief/nieuwsbrief-1a/%2089/%205%20okt%202016: &quot;Het digitaal platform moet voor professionals en burgers een overzicht bieden van formele en informele mogelijkheden binnen het sociaal domein. Doel is om de zelfredzaamheid en eigen regie voor bezoekers van de site te vergroten. Versnipperde informatie op het gebied van zorg en binnen het sociaal domein zal in de toekomst onder één dak worden aangeboden.&#xD;
+&#xD;
+Er is al een beta versie van het platform ontwikkeld: de zorghulpwijzer (www.zorghulpwijzer.nl). Deze is in Stadsdeel West op kleine schaal getest. Daarnaast is door de Hogeschool van Amsterdam een gebruiksonderzoek uitgevoerd. Op basis van de uitkomsten van dit onderzoek heeft de stuurgroep besloten om met het project door te gaan.&#xD;
+&#xD;
+Op dit moment wordt de beta versie klaargemaakt voor stadsbreed gebruik. Er worden koppelingen gemaakt met de belangrijkste info-bronnen. Daarnaast moet er een plan gemaakt worden voor een stadsbrede lancering en gestage doorontwikkeling.&quot;&#xD;
+&#xD;
+Volgens https://www.zorghulpwijzer.nl/home/samenwerking: &quot;Zorghulpwijzer.nl geeft een overzicht van de mogelijkheden voor zorghulp, zoals vermeld op de sociale kaart van Amsterdam, op jekuntmeer.nl en ikzoekjeugdhulp.nl. In de toekomst nemen we meer informatiebronnen mee. De gemeente Amsterdam werkt bij deze zorghulpwijzer samen met: &#xD;
+Zoek je zorg / Kies beter www.zoekjezorg.nl www.kiesbeter.nl &#xD;
+Wehelpen www.wehelpen.nl &#xD;
+Zorgvoorelkaar www.zorgvoorelkaar.com &#xD;
+SIGRA www.sigra.nl &#xD;
+RVVP amsterdam www.rvvpamsterdam.nl &#xD;
+Stichting De Omslag www.deomslag.nl &#xD;
+Blogboek www.blogboek.nl&quot;</documentation>
+      </element>
     </folder>
     <folder name="Functionaliteit" id="b91ccee3">
       <folder name="Regie-overdracht" id="137975c5">
@@ -10808,7 +10826,7 @@ Versie 20160908</content>
       <documentation>Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
 Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="5c477e08" name="Processtappen Verblijfzorg Beoordeling en Intake, doelsituatie 2020">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="5c477e08" name="Processtappen Verblijfzorg Beoordeling en Intake, doelsituatie">
       <child xsi:type="archimate:DiagramObject" id="171d70ae" textAlignment="2" targetConnections="3d958ad7" archimateElement="47e89f49">
         <bounds x="1199" y="240" width="110" height="55"/>
       </child>
@@ -10830,7 +10848,7 @@ Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentat
 Processtappen Verblijfzorg Beoordeling en Intake&#xD;
 Doelsituatie&#xD;
 Rollen - Verantwoordelijkheden - Proces - IV&#xD;
-Versie 20160929</content>
+Versie 20161005</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="0d386cb5" textAlignment="2" targetConnections="41051b19 fbaa970f" archimateElement="ead16a6c">
         <bounds x="364" y="462" width="1197" height="55"/>
@@ -10915,9 +10933,6 @@ Versie 20160929</content>
       <child xsi:type="archimate:DiagramObject" id="dd647d8c" textAlignment="2" targetConnections="893bc225" archimateElement="b4f7caa6">
         <bounds x="948" y="172" width="106" height="55"/>
       </child>
-      <child xsi:type="archimate:DiagramModelReference" id="cb313d2d" textAlignment="2" model="b0b987fc">
-        <bounds x="1573" y="144" width="120" height="83"/>
-      </child>
       <child xsi:type="archimate:DiagramObject" id="e3f41661" textAlignment="2" archimateElement="520eb1a2">
         <bounds x="1573" y="12" width="120" height="55"/>
       </child>
@@ -10937,10 +10952,13 @@ Versie 20160929</content>
         <bounds x="713" y="553" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="fbaa970f" source="77596585" target="0d386cb5" relationship="d2df078c"/>
       </child>
+      <child xsi:type="archimate:DiagramModelReference" id="705be4a9" textAlignment="2" model="b187d7c7">
+        <bounds x="1573" y="152" width="120" height="75"/>
+      </child>
       <documentation>Gebaseerd op het Handboek maatschappelijke opvang, Versie 2, Datum 26 mei 2016.&#xD;
 https://www.amsterdam.nl/publish/pages/717198/handboek_maatschappelijke_opvang_-_procedures_en_afspraken_v2.pdf</documentation>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="accc884a" name="Processtappen Verblijfzorg, Plaatsing en Levering, doelsituatie 2020">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="accc884a" name="Processtappen Verblijfzorg, Plaatsing en Levering, doelsituatie">
       <child xsi:type="archimate:DiagramObject" id="1f43dcdf" textAlignment="2" archimateElement="fdebe76b">
         <bounds x="516" y="216" width="97" height="127"/>
       </child>
@@ -11098,6 +11116,247 @@ Versie 20160929</content>
         <bounds x="1860" y="972" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="43373c5d" source="77f89731" target="e4d2de03" relationship="f8148bdc"/>
       </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="f24cde6e" name="Processtappen Verblijfzorg Instroom Verwijzingen, doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="4f050778" textAlignment="2" archimateElement="1f236a3e">
+        <bounds x="145" y="84" width="97" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c0b494d4" textAlignment="2" archimateElement="854ed5c5">
+        <bounds x="13" y="232" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c1af2dd3" textAlignment="2" archimateElement="4a2aeffd">
+        <bounds x="13" y="84" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4fc53757" textAlignment="2" targetConnections="e8641171" archimateElement="2af5e83f">
+        <bounds x="650" y="232" width="96" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="44e9a8e5" textAlignment="2" archimateElement="36257a58">
+        <bounds x="516" y="12" width="697" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c4052258" textAlignment="2" archimateElement="130948e0">
+        <bounds x="13" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="4a767e61" textAlignment="1">
+        <bounds x="15" y="444" width="286" height="92"/>
+        <content>Gemeente Amsterdam, Zorgdomein&#xD;
+Processtappen Verblijfzorg Instroom bij Verwijzingen&#xD;
+Doelsituatie&#xD;
+Rollen - Verantwoordelijkheden - Proces - IV&#xD;
+Versie 20161005</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7545f5b0" textAlignment="2" archimateElement="ead16a6c">
+        <bounds x="386" y="390" width="695" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0d065c33" source="7545f5b0" target="9cedf3ff" relationship="bfdda7cb"/>
+        <sourceConnection xsi:type="archimate:Connection" id="888651cc" source="7545f5b0" target="0e9201e3" relationship="c82e6d7a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="14a14b87" source="7545f5b0" target="dee3cf3c" relationship="082f3f97"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ad88eb1f" source="7545f5b0" target="73b91277" relationship="1613fd52"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6751a795" source="7545f5b0" target="75de20b4" relationship="a593d041"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c3197fa1" source="7545f5b0" target="0ebe5f1b" relationship="f8acfa07"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b85e9ffd" source="7545f5b0" target="2502a5b2" relationship="1a94cee1"/>
+        <sourceConnection xsi:type="archimate:Connection" id="561c45c0" source="7545f5b0" target="2714879e" relationship="cb55cf26"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9cedf3ff" textAlignment="2" targetConnections="0d065c33" archimateElement="4b98aa89">
+        <bounds x="650" y="324" width="96" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e8641171" source="9cedf3ff" target="4fc53757" relationship="194cd26e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0e9201e3" textAlignment="2" targetConnections="888651cc" archimateElement="ee537c71">
+        <bounds x="985" y="324" width="96" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="17f29a2a" source="0e9201e3" target="f9b11586" relationship="33107858"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2714879e" textAlignment="2" targetConnections="561c45c0" archimateElement="cb3b8d4a">
+        <bounds x="758" y="481" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="dee3cf3c" textAlignment="2" targetConnections="14a14b87" archimateElement="aa70bd43">
+        <bounds x="758" y="324" width="96" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="3006e588" source="dee3cf3c" target="f9b11586" relationship="1bf338c4"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="73b91277" textAlignment="2" targetConnections="ad88eb1f" archimateElement="f3ec4c66">
+        <bounds x="865" y="324" width="109" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="476c6680" source="73b91277" target="f9b11586" relationship="b970ece3"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bd421ef9" textAlignment="2" archimateElement="f835e753">
+        <bounds x="255" y="324" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="75de20b4" textAlignment="2" targetConnections="6751a795" archimateElement="8638103f">
+        <bounds x="386" y="324" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8da0d374" source="75de20b4" target="020d8ba4" relationship="ada6a008"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="655a38cf" textAlignment="2" archimateElement="ebdb9f4d">
+        <bounds x="253" y="84" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="020d8ba4" textAlignment="2" targetConnections="8da0d374" archimateElement="18cbf492">
+        <bounds x="384" y="84" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a01867b3" textAlignment="2" targetConnections="8f0e3440" archimateElement="c1dbc677">
+        <bounds x="516" y="232" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0ebe5f1b" textAlignment="2" targetConnections="c3197fa1" archimateElement="9dc68e26">
+        <bounds x="518" y="324" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8f0e3440" source="0ebe5f1b" target="a01867b3" relationship="ce156221"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2502a5b2" textAlignment="2" targetConnections="b85e9ffd" archimateElement="fe021a9c">
+        <bounds x="518" y="481" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f9b11586" textAlignment="2" targetConnections="476c6680 17f29a2a 3006e588" archimateElement="e98ba886">
+        <bounds x="756" y="84" width="323" height="203"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="7a9086cb" textAlignment="2" model="5c477e08">
+        <bounds x="1092" y="205" width="121" height="82"/>
+      </child>
+      <documentation>Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
+Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="c676a3a3" name="Processtappen Verblijfzorg Instroom Zelfmelders, doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="702d4dde" textAlignment="2" archimateElement="44b47d7f">
+        <bounds x="145" y="98" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9c0eaf76" textAlignment="2" archimateElement="652f9ef6">
+        <bounds x="276" y="98" width="89" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="286425a2" textAlignment="2" targetConnections="77a16ac2 485abfa9 023054bf" archimateElement="a98d2cbb">
+        <bounds x="492" y="96" width="97" height="131"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="641ef607" textAlignment="2" archimateElement="854ed5c5">
+        <bounds x="13" y="172" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a92a6bb3" textAlignment="2" archimateElement="36257a58">
+        <bounds x="276" y="12" width="661" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c0b58af2" textAlignment="2" archimateElement="130948e0">
+        <bounds x="13" y="98" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="4e84d7bd" textAlignment="1">
+        <bounds x="13" y="383" width="264" height="104"/>
+        <content>Gemeente Amsterdam, Zorgdomein&#xD;
+Processtappen Verblijfzorg Instroom Zelfmelders Maatschappelijke Opvang&#xD;
+Doelsituatie&#xD;
+Rollen - Verantwoordelijkheden - Proces - IV&#xD;
+Versie 20161005</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="075865e1" textAlignment="2" archimateElement="ead16a6c">
+        <bounds x="364" y="341" width="441" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="04c69118" source="075865e1" target="1fcfb96d" relationship="e700b8b0"/>
+        <sourceConnection xsi:type="archimate:Connection" id="1edc678d" source="075865e1" target="eca2a53f" relationship="082f3f97"/>
+        <sourceConnection xsi:type="archimate:Connection" id="cd8c3df1" source="075865e1" target="fde903d9" relationship="1613fd52"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5f14caa1" source="075865e1" target="3e6ffe44" relationship="cb55cf26"/>
+        <sourceConnection xsi:type="archimate:Connection" id="396e9211" source="075865e1" target="c8fd0f6d" relationship="c82e6d7a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8cebaccf" source="075865e1" target="92c7fd61" relationship="bfdda7cb"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c5ea6b73" textAlignment="2" targetConnections="e2c9e498" archimateElement="6877c339">
+        <bounds x="372" y="172" width="108" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="1fcfb96d" textAlignment="2" targetConnections="04c69118" archimateElement="ab6ed30d">
+        <bounds x="372" y="276" width="108" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e2c9e498" source="1fcfb96d" target="c5ea6b73" relationship="742a2348"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3e6ffe44" textAlignment="2" targetConnections="5f14caa1" archimateElement="cb3b8d4a">
+        <bounds x="372" y="432" width="108" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2ae4b50e" textAlignment="2" archimateElement="7cb2e94d">
+        <bounds x="145" y="12" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="03effd1b" textAlignment="2" targetConnections="c9e76979 2f332770 52862f4e" archimateElement="6b24b671">
+        <bounds x="600" y="99" width="205" height="128"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="eca2a53f" textAlignment="2" targetConnections="1edc678d" archimateElement="aa70bd43">
+        <bounds x="492" y="276" width="97" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="023054bf" source="eca2a53f" target="286425a2" relationship="2ccef1ff"/>
+        <sourceConnection xsi:type="archimate:Connection" id="52862f4e" source="eca2a53f" target="03effd1b" relationship="968f21ac">
+          <bendpoint startX="84" startY="-111" endX="-78" endY="151"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fde903d9" textAlignment="2" targetConnections="cd8c3df1" archimateElement="f3ec4c66">
+        <bounds x="599" y="276" width="98" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="77a16ac2" source="fde903d9" target="286425a2" relationship="af16a621">
+          <bendpoint startX="-84" startY="-111" endX="24" endY="151"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="c9e76979" source="fde903d9" target="03effd1b" relationship="977cd2f6"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c8fd0f6d" textAlignment="2" targetConnections="396e9211" archimateElement="ee537c71">
+        <bounds x="708" y="276" width="97" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2f332770" source="c8fd0f6d" target="03effd1b" relationship="fd29f0ba"/>
+        <sourceConnection xsi:type="archimate:Connection" id="485abfa9" source="c8fd0f6d" target="286425a2" relationship="50dff0d1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="92c7fd61" textAlignment="2" targetConnections="8cebaccf" archimateElement="4b98aa89">
+        <bounds x="540" y="432" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="3916a5e0" textAlignment="2" model="5c477e08">
+        <bounds x="816" y="144" width="121" height="83"/>
+      </child>
+      <documentation>Gebaseerd op het Handboek maatschappelijke opvang, Versie 2, Datum 26 mei 2016.&#xD;
+https://www.amsterdam.nl/publish/pages/717198/handboek_maatschappelijke_opvang_-_procedures_en_afspraken_v2.pdf&#xD;
+&#xD;
+Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
+Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="b187d7c7" name="Processtappen Verblijfzorg, Overbrugging. doelsituatie">
+      <child xsi:type="archimate:DiagramObject" id="6d3e43f7" textAlignment="2" archimateElement="c94bde14">
+        <bounds x="526" y="288" width="123" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="682a504d" textAlignment="2" archimateElement="c2a734d8">
+        <bounds x="661" y="288" width="97" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b8ac59d0" textAlignment="2" archimateElement="8270106b">
+        <bounds x="24" y="432" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4f8a1783" textAlignment="2" archimateElement="b36617a0">
+        <bounds x="24" y="288" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="81d517d6" textAlignment="2" archimateElement="520eb1a2">
+        <bounds x="288" width="600" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="b555008d" textAlignment="1">
+        <bounds x="24" y="609" width="241" height="88"/>
+        <content>Gemeente Amsterdam, Zorgdomein&#xD;
+Processchets Verblijfzorg, Overbrugging&#xD;
+Doelsituatie&#xD;
+Rollen - Verantwoordelijkheden - Proces - IV&#xD;
+Versie 20161005</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0df50810" textAlignment="2" archimateElement="99a9ad1d">
+        <bounds x="406" y="216" width="108" height="127"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6748440c" textAlignment="2" archimateElement="287e7d94">
+        <bounds x="407" y="576" width="108" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="74628b13" textAlignment="2" archimateElement="25ca5367">
+        <bounds x="526" y="576" width="123" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2e06590c" textAlignment="2" archimateElement="ead16a6c">
+        <bounds x="407" y="642" width="468" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f5bda314" textAlignment="2" archimateElement="130948e0">
+        <bounds x="24" y="216" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="510ae249" textAlignment="2" archimateElement="61bf0670">
+        <bounds x="24" y="360" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ac7dcede" textAlignment="2" archimateElement="bce96f34">
+        <bounds x="288" y="216" width="107" height="127"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e89fc1d1" textAlignment="2" archimateElement="854ed5c5">
+        <bounds x="24" y="144" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d07b4d6e" textAlignment="2" archimateElement="06a6fc48">
+        <bounds x="156" y="144" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="13438ade" textAlignment="2" archimateElement="36257a58">
+        <bounds x="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5b542251" textAlignment="2" archimateElement="1b39566e">
+        <bounds x="780" y="432" width="96" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5089bb65" textAlignment="2" archimateElement="fffd0661">
+        <bounds x="780" y="576" width="96" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fb601c00" textAlignment="2" archimateElement="b8f8f97b">
+        <bounds x="24" y="504" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramModelReference" id="50fc86da" textAlignment="2" model="accc884a">
+        <bounds x="888" y="396" width="120" height="91"/>
+      </child>
+      <documentation>Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
+Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
     </element>
   </folder>
   <purpose>Deze domeinarchitectuur is bedoeld om overzicht te bieden op en inzicht te bieden in het gemeentelijke Zorgdomein. De domeinarchitectuur bevat modellen en beschrijvingen van de huidige situatie van 2016, en ontwerpplaten van een doelsituatie van ongeveer 2020. Behandeld worden de verschillende taken en verantwoordelijkheden in de Zorgketen, de produkten en diensten van de verschillende partijen, de processen achter de taken, verantwoordelijkheden, produkten en diensten, en de benodigde informatievoorziening en infrastructuur.&#xD;
