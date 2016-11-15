@@ -103,7 +103,7 @@ Jochem 20151123: &quot;De verantwoordelijkheid van de BO “Afhandeling aanvrage
         <documentation>WMO-Accent is de naam van een aparte aanvraagroute, voor &lt; 18 jaar, ALS-, MLS-, en anderszins 'ketenverstorende' cliënten. Samenwerking met Reade. Reade is dan zowel casemanager als klanthouder.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" id="a3452393" name="Verzending brieven en passen"/>
-      <element xsi:type="archimate:BusinessFunction" id="4de2b7a2" name="Informatieverstrekking"/>
+      <element xsi:type="archimate:BusinessFunction" id="4de2b7a2" name="Informatie-verstrekking"/>
       <element xsi:type="archimate:BusinessFunction" id="35b4bc67" name="Regievoering mbt Werk"/>
       <element xsi:type="archimate:BusinessFunction" id="52642b0a" name="Regievoering mbt Ondersteuning en Dagbesteding"/>
       <element xsi:type="archimate:BusinessFunction" id="072ded74" name="Ketenregie &amp; Beleidsvorming"/>
@@ -122,6 +122,7 @@ Jochem 20151123: &quot;De verantwoordelijkheid van de BO “Afhandeling aanvrage
       <element xsi:type="archimate:BusinessFunction" id="6ef8272f" name="Toeleiding AO en HbH"/>
       <element xsi:type="archimate:BusinessFunction" id="e412abbe" name="Implementatie"/>
       <element xsi:type="archimate:BusinessFunction" id="9dd889a5" name="Organisatie informele zorg"/>
+      <element xsi:type="archimate:BusinessFunction" id="c857945b" name="Contractering"/>
     </folder>
     <folder name="Producten en diensten" id="3f372085">
       <folder name="Diensten van aanbieders aan burgers" id="52eae89a">
@@ -11405,6 +11406,48 @@ Versie 20161005</content>
       </child>
       <documentation>Hoe komt de instroomfunctionaris een eventuele GGZ indicatie van de cliënt te weten?&#xD;
 Waar gaat hij dat navragen? Kan hij dat meteen in Trajectus al zien?</documentation>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="b383efe5" name="Gemeentelijke Wmo hoofdprocessen familieplan AR">
+      <child xsi:type="archimate:DiagramObject" id="ced7259e" textAlignment="2" archimateElement="3b39e591">
+        <bounds x="648" y="156" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9b565c53" textAlignment="2" archimateElement="42db311b">
+        <bounds x="492" y="15" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c373b5e9" source="9b565c53" target="6e4bec8c" relationship="02d3abb2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d0871f12" textAlignment="2" targetConnections="71459c98" archimateElement="f9c152ce">
+        <bounds x="816" y="15" width="145" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="88dbdf37" source="d0871f12" target="485155f9" relationship="9e32aad4"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6e4bec8c" textAlignment="2" targetConnections="c373b5e9" archimateElement="bec1a383">
+        <bounds x="648" y="15" width="145" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="71459c98" source="6e4bec8c" target="d0871f12" relationship="b78fd768"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c02385cc" source="6e4bec8c" target="256e47b1" relationship="af298738"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="485155f9" textAlignment="2" targetConnections="88dbdf37" archimateElement="9d77b9cb">
+        <bounds x="816" y="96" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="82e3a318" textAlignment="2" archimateElement="76568950">
+        <bounds x="816" y="156" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b23504ab" textAlignment="2" archimateElement="cdfee187">
+        <bounds x="648" y="216" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c4f631dc" textAlignment="2" archimateElement="c857945b">
+        <bounds x="648" y="276" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7cb96555" textAlignment="2" archimateElement="4de2b7a2">
+        <bounds x="816" y="216" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bd7479fb" textAlignment="2" archimateElement="463ce067">
+        <bounds x="816" y="276" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4544ee7d" textAlignment="2" archimateElement="e5afe902">
+        <bounds x="816" y="336" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="256e47b1" textAlignment="2" targetConnections="c02385cc" archimateElement="072ded74">
+        <bounds x="648" y="96" width="145" height="55"/>
+      </child>
     </element>
   </folder>
   <purpose>Deze domeinarchitectuur is bedoeld om overzicht te bieden op en inzicht te bieden in het gemeentelijke Zorgdomein. De domeinarchitectuur bevat modellen en beschrijvingen van de huidige situatie van 2016, en ontwerpplaten van een doelsituatie van ongeveer 2020. Behandeld worden de verschillende taken en verantwoordelijkheden in de Zorgketen, de produkten en diensten van de verschillende partijen, de processen achter de taken, verantwoordelijkheden, produkten en diensten, en de benodigde informatievoorziening en infrastructuur.&#xD;
