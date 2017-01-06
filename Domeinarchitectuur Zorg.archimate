@@ -1026,7 +1026,9 @@ Verwijzers: MEE, huisarts, Wijkzorgnetwerk, kliniek, behandelaar (psychiater).&#
           <element xsi:type="archimate:BusinessProcess" id="bce96f34" name="Gesprek"/>
         </folder>
         <folder name="Plaatsing" id="b35d1a46">
-          <element xsi:type="archimate:BusinessProcess" id="4250ab1c" name="Matching"/>
+          <element xsi:type="archimate:BusinessProcess" id="4250ab1c" name="Matching">
+            <documentation>Anne: Matchin gebeurt niet door de Veldregisseur maar door de Trajecthouders zelf. Als er een plaats vrij komt dan is dat een plaats behorend tot een van de clusters (verschillende vormen van Verblijfzorg). Voor ieder van de clusters doet een van de trajecthouders de coördinatie, die trajecthouder van het betreffende cluster kan bij ene vrije plek bepalen welke wachtende als eerste in aanmerking komt.</documentation>
+          </element>
           <element xsi:type="archimate:BusinessProcess" id="ba77c322" name="Overdracht"/>
         </folder>
         <folder name="Levering" id="70568a30">
@@ -1633,7 +1635,9 @@ In het geval van PGB wordt de cliënt per e-mail aangemeld bij de Backoffice Zor
       </element>
       <element xsi:type="archimate:ApplicationService" id="b65b811a" name="Kennisgeving Eigen Bijdrage"/>
       <element xsi:type="archimate:ApplicationService" id="d22a2254" name="Kennisgeving acceptatie regierol"/>
-      <element xsi:type="archimate:ApplicationService" id="001f7b58" name="Verzoek om Toewijzing Wmo315"/>
+      <element xsi:type="archimate:ApplicationService" id="001f7b58" name="Verzoek om Toewijzing Wmo315">
+        <documentation>Jochem: Nu gebruiken we vanuit Wmo Portaal en vanuit RIS Wijkzorg het Aaanvraag Voorziening Advies (AVA) bericht. Daar zit iets meer informatie in dan in de huidige iWMO 315...</documentation>
+      </element>
       <element xsi:type="archimate:ApplicationService" id="132539db" name="Kennisgeving aanvang ondersteuning WMO305"/>
       <element xsi:type="archimate:ApplicationService" id="4eb9ea6e" name="Kennisgeving beëindiging ondersteuning WMO307"/>
       <element xsi:type="archimate:ApplicationService" id="d6ad0932" name="Toewijzing / plaatsing WMO301"/>
@@ -10820,7 +10824,7 @@ Processchets Verblijfzorg&#xD;
 Plaatsing en Levering&#xD;
 Huidige situatie 2016&#xD;
 Rollen - Verantwoordelijkheden - Proces - IV&#xD;
-Versie 20160908</content>
+Versie 20170106</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="674c4194" textAlignment="2" archimateElement="8c346c44">
         <bounds x="383" y="576" width="97" height="55"/>
@@ -10877,7 +10881,7 @@ Versie 20160908</content>
         <bounds x="24" y="504" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="c3ec8acd" textAlignment="2" archimateElement="4250ab1c">
-        <bounds x="263" y="504" width="108" height="55"/>
+        <bounds x="263" y="288" width="108" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="249d8d69" textAlignment="2" archimateElement="2f683f26">
         <bounds x="611" y="432" width="108" height="55"/>
@@ -11075,7 +11079,7 @@ Processchets Verblijfzorg&#xD;
 Plaatsing en Levering&#xD;
 Doelsituatie&#xD;
 Rollen - Verantwoordelijkheden - Proces - IV&#xD;
-Versie 20161201</content>
+Versie 20170106</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="d42de23a" textAlignment="2" targetConnections="bba2122e" archimateElement="8c346c44">
         <bounds x="516" y="660" width="97" height="55"/>
@@ -11145,7 +11149,7 @@ Versie 20161201</content>
         <bounds x="24" y="504" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="e6cc7928" textAlignment="2" archimateElement="4250ab1c">
-        <bounds x="396" y="504" width="108" height="55"/>
+        <bounds x="396" y="288" width="108" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="30fe312a" textAlignment="2" archimateElement="2f683f26">
         <bounds x="876" y="432" width="108" height="55"/>
