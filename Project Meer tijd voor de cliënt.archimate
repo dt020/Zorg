@@ -1199,6 +1199,22 @@ Derde bespreking 15 maart 2016</documentation>
         <element xsi:type="archimate:BusinessProcess" id="d6250273" name="Melding krijgen dat info bekeken is"/>
         <element xsi:type="archimate:BusinessProcess" id="424a4da9" name="Wie heeft wat bekeken?"/>
       </folder>
+      <folder name="Proces zoals ondersteund door RIS Wijkzorg" id="02a6ccb5">
+        <element xsi:type="archimate:BusinessEvent" id="925a5841" name="Nieuwe cliënt"/>
+        <element xsi:type="archimate:BusinessProcess" id="60e1e69c" name="Dossier opzoeken"/>
+        <element xsi:type="archimate:BusinessProcess" id="9d69fd24" name="Regiecheck"/>
+        <element xsi:type="archimate:BusinessProcess" id="dcdcf258" name="Contact opnemen met klanthouder"/>
+        <element xsi:type="archimate:BusinessProcess" id="78a707d1" name="Dossier inzien"/>
+        <element xsi:type="archimate:BusinessProcess" id="2ca0dec7" name="Nieuw dossier beginnen"/>
+        <element xsi:type="archimate:BusinessProcess" id="d21b84e0" name="Registratie Persoonsgegevens"/>
+        <element xsi:type="archimate:BusinessProcess" id="8580e351" name="Beoordelen"/>
+        <element xsi:type="archimate:BusinessProcess" id="8d243d67" name="Ondersteuningsplan maken"/>
+        <element xsi:type="archimate:BusinessProcess" id="a6385337" name="Kortdurende ondersteuning"/>
+        <element xsi:type="archimate:BusinessProcess" id="a72597ba" name="Vraagverheldering"/>
+        <element xsi:type="archimate:BusinessProcess" id="126db787" name="Intake"/>
+        <element xsi:type="archimate:BusinessProcess" id="9ce94ce1" name="Zelfredzaamheid bespreken"/>
+        <element xsi:type="archimate:BusinessProcess" id="696ef33d" name="PGB of ZIN"/>
+      </folder>
       <element xsi:type="archimate:BusinessProcess" id="1e218a18" name="Ondersteuning / voorziening aanvragen"/>
       <element xsi:type="archimate:BusinessProcess" id="64bf3951" name="Zelfredzaamheid bepalen"/>
       <element xsi:type="archimate:BusinessProcess" id="5b340ecc" name="Plan maken"/>
@@ -1601,7 +1617,7 @@ In het geval van PGB wordt de cliënt per e-mail aangemeld bij de Backoffice Zor
         <documentation>Raadplegen GBA gebeurt nu door in Lotus (?) te kijken...</documentation>
       </element>
       <element xsi:type="archimate:ApplicationFunction" id="aa70bd43" name="Registratie Zorgkader"/>
-      <element xsi:type="archimate:ApplicationFunction" id="f3ec4c66" name="Registratie Sociaal netwerk"/>
+      <element xsi:type="archimate:ApplicationFunction" id="f3ec4c66" name="Registratie sociaal netwerk"/>
       <element xsi:type="archimate:ApplicationFunction" id="f835e753" name="Email naar aanmelding@ctbw-amsterdam.nl"/>
       <element xsi:type="archimate:ApplicationFunction" id="8638103f" name="Webformulier + uploadfunctionaliteit"/>
       <element xsi:type="archimate:ApplicationFunction" id="c07a432e" name="Registratie zorgadvies"/>
@@ -1641,6 +1657,11 @@ In het geval van PGB wordt de cliënt per e-mail aangemeld bij de Backoffice Zor
       <element xsi:type="archimate:ApplicationFunction" id="dc230bce" name="Authenticatie"/>
       <element xsi:type="archimate:ApplicationFunction" id="052ece9a" name="Inzage gemeentelijke info"/>
       <element xsi:type="archimate:ApplicationFunction" id="c9758183" name="Inzage in persoonlijke info"/>
+      <element xsi:type="archimate:ApplicationFunction" id="df4cede3" name="Opzoeken klanthouder contactgegevens"/>
+      <element xsi:type="archimate:ApplicationFunction" id="3c13b274" name="Nieuw dossier aanmaken"/>
+      <element xsi:type="archimate:ApplicationFunction" id="a726c596" name="Persoons- en contactgegevens invullen"/>
+      <element xsi:type="archimate:ApplicationFunction" id="ed00b7ea" name="Gesprekken inplannen"/>
+      <element xsi:type="archimate:ApplicationFunction" id="1ba9171b" name="Gespreksaantekeningen maken"/>
     </folder>
     <folder name="Applicatieservices" id="18792d82">
       <element xsi:type="archimate:ApplicationService" id="bc5148d7" name="Aanmelden beoogde regievoerder"/>
@@ -2711,6 +2732,20 @@ en http://www.amsterdam.nl/publish/pages/542598/koersbesluit_amsterdamse_zorg_no
     <element xsi:type="archimate:FlowRelationship" id="6694fce8" source="dfa58dff" target="65726048"/>
     <element xsi:type="archimate:FlowRelationship" id="dd49ea86" source="f00857a4" target="26c36848"/>
     <element xsi:type="archimate:FlowRelationship" id="df6c77e0" source="26c36848" target="f00857a4"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="94026d37" source="925a5841" target="60e1e69c"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="f54b7a85" source="60e1e69c" target="9d69fd24"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="02a50d1a" source="9d69fd24" target="dcdcf258"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="9f18370c" source="9d69fd24" target="78a707d1"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="58704704" source="9d69fd24" target="2ca0dec7"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="1f760f89" source="2ca0dec7" target="d21b84e0"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="2e9f760f" source="d21b84e0" target="8580e351"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="639392cb" source="8580e351" target="a6385337"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="5cd9e6a9" source="8580e351" target="a72597ba"/>
+    <element xsi:type="archimate:AggregationRelationship" id="fd2c3b06" source="a72597ba" target="126db787"/>
+    <element xsi:type="archimate:AggregationRelationship" id="ce6278f2" source="a72597ba" target="9ce94ce1"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="ad0cd6b6" source="126db787" target="9ce94ce1"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="82e0b654" source="9ce94ce1" target="696ef33d"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="e37b1899" source="a72597ba" target="8d243d67"/>
   </folder>
   <folder name="Views" id="bb240460" type="diagrams">
     <folder name="Views tbv project" id="c68b5325">
@@ -3020,6 +3055,82 @@ Implementatie bedrijfsregel: &quot;Alleen info geven als de cliént het goed vin
         </child>
         <child xsi:type="archimate:DiagramObject" id="bec5d99c" textAlignment="2" targetConnections="cb60ecba" archimateElement="f9c152ce">
           <bounds x="168" y="360" width="120" height="55"/>
+        </child>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" id="8bd8f103" name="Proces zoals nu ondersteund door RIS Wijkzorg">
+        <child xsi:type="archimate:DiagramObject" id="e66d953f" textAlignment="2" archimateElement="925a5841">
+          <bounds x="12" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="fc670cac" source="e66d953f" target="173652f6" relationship="94026d37"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="173652f6" textAlignment="2" targetConnections="fc670cac" archimateElement="60e1e69c">
+          <bounds x="168" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="c2457dc6" source="173652f6" target="83908e54" relationship="f54b7a85"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="83908e54" textAlignment="2" targetConnections="c2457dc6" archimateElement="9d69fd24">
+          <bounds x="312" y="24" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="aa3f97b7" source="83908e54" target="61d6e206" relationship="02a50d1a"/>
+          <sourceConnection xsi:type="archimate:Connection" id="a17bddb0" source="83908e54" target="98447a71" relationship="9f18370c"/>
+          <sourceConnection xsi:type="archimate:Connection" id="665ce8c9" source="83908e54" target="4c05c23d" relationship="58704704"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="61d6e206" textAlignment="2" targetConnections="aa3f97b7" archimateElement="dcdcf258">
+          <bounds x="456" y="24" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="622e6797" textAlignment="2" archimateElement="52885f24">
+          <bounds x="168" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="7997fe67" textAlignment="2" archimateElement="df4cede3">
+          <bounds x="312" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="b3ea8ede" textAlignment="2" archimateElement="3c13b274">
+          <bounds x="456" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="98447a71" textAlignment="2" targetConnections="a17bddb0" archimateElement="78a707d1">
+          <bounds x="456" y="96" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="4c05c23d" textAlignment="2" targetConnections="665ce8c9" archimateElement="2ca0dec7">
+          <bounds x="456" y="168" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="f24c78d8" source="4c05c23d" target="11859627" relationship="1f760f89"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="11859627" textAlignment="2" targetConnections="f24c78d8" archimateElement="d21b84e0">
+          <bounds x="600" y="168" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="a4ce3fec" source="11859627" target="d880dbc2" relationship="2e9f760f"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="dc8b0678" textAlignment="2" archimateElement="a726c596">
+          <bounds x="600" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="d880dbc2" textAlignment="2" targetConnections="a4ce3fec" archimateElement="8580e351">
+          <bounds x="744" y="168" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="374e6749" source="d880dbc2" target="6bb9059b" relationship="639392cb"/>
+          <sourceConnection xsi:type="archimate:Connection" id="f625da57" source="d880dbc2" target="7e0f2774" relationship="5cd9e6a9"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="da8567ab" textAlignment="2" targetConnections="5ac87293" archimateElement="8d243d67">
+          <bounds x="1056" y="348" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="9adb3373" textAlignment="2" archimateElement="f3ec4c66">
+          <bounds x="612" y="276" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="7b7ef100" textAlignment="2" archimateElement="ed00b7ea">
+          <bounds x="888" y="240" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="6bb9059b" textAlignment="2" targetConnections="374e6749" archimateElement="a6385337">
+          <bounds x="888" y="168" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="8f55771e" textAlignment="2" archimateElement="1ba9171b">
+          <bounds x="900" y="276" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="7e0f2774" textAlignment="2" targetConnections="f625da57" archimateElement="a72597ba">
+          <bounds x="888" y="348" width="144" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="b2880543" source="7e0f2774" target="b1bac732" relationship="fd2c3b06"/>
+          <sourceConnection xsi:type="archimate:Connection" id="5ac87293" source="7e0f2774" target="da8567ab" relationship="e37b1899"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="b1bac732" textAlignment="2" targetConnections="b2880543" archimateElement="126db787">
+          <bounds x="888" y="456" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="9e15bbc6" textAlignment="2" archimateElement="9ce94ce1">
+          <bounds x="900" y="480" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="ec1c987f" textAlignment="2" archimateElement="696ef33d">
+          <bounds x="912" y="516" width="120" height="55"/>
         </child>
       </element>
     </folder>
