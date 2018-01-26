@@ -1,0 +1,81 @@
+<archimate:SketchModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Subsidies fraudebestrijding"
+    id="55d3a75d">
+  <children
+      xsi:type="archimate:SketchModelActor"
+      id="63a40d16"
+      name="Aanvrager"
+      targetConnections="736747f5">
+    <sourceConnections
+        id="1db2deb6"
+        name="Aanvraag"
+        source="63a40d16"
+        target="867c4a5d"
+        type="1">
+      <bendpoints
+          startX="101"
+          startY="-8"
+          endX="-97"
+          endY="-8"/>
+    </sourceConnections>
+    <bounds
+        x="114"
+        y="54"
+        width="75"
+        height="100"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelActor"
+      id="867c4a5d"
+      name="Subsidiebureau"
+      targetConnections="1db2deb6 181123da">
+    <sourceConnections
+        id="90032923"
+        name="Bezwaar?"
+        source="867c4a5d"
+        target="53785af6"
+        type="1"/>
+    <sourceConnections
+        id="736747f5"
+        name="Toekennen / Afwijzen"
+        source="867c4a5d"
+        target="63a40d16"
+        type="1">
+      <bendpoints
+          startX="-61"
+          startY="28"
+          endX="137"
+          endY="28"/>
+    </sourceConnections>
+    <bounds
+        x="312"
+        y="54"
+        width="75"
+        height="100"/>
+  </children>
+  <children
+      xsi:type="archimate:SketchModelActor"
+      id="53785af6"
+      name="Bureau Bibob"
+      targetConnections="90032923">
+    <sourceConnections
+        id="181123da"
+        name="Bezwaar / Geen bezwaar"
+        source="53785af6"
+        target="867c4a5d"
+        type="1">
+      <bendpoints
+          startX="-85"
+          startY="16"
+          endX="107"
+          endY="16"/>
+    </sourceConnections>
+    <bounds
+        x="504"
+        y="54"
+        width="75"
+        height="100"/>
+  </children>
+</archimate:SketchModel>

@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Landelijk Register van Zorgaanbieders (LRZa)"
+    id="ccae1602"
+    documentation="Het ministerie van Volksgezondheid, Welzijn en Sport werkt aan een landelijk register waarin alle zorgaanbieders zijn opgenomen. Het register zal tevens alle vestigingen bevatten waar zorg wordt geleverd onder verantwoordelijkheid van de zorgaanbieder. De LRZa is een virtueel register (aanbodgestuurd knooppunt) dat andere bronnen ontsluit, maar de gegevens hieruit niet kopieert. Belangrijke bronnen hiervoor zijn het Handelsregister (KvK), het AGB-register (Vektis) en het BIG-register (CIBG)."/>

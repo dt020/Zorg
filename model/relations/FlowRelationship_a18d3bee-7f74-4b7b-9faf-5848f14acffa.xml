@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opdrachten verzending brieven en vervoerspassen"
+    id="a18d3bee-7f74-4b7b-9faf-5848f14acffa">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_65726048.xml#65726048"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_3e255922-e946-46d8-8572-e6643261e1c1.xml#3e255922-e946-46d8-8572-e6643261e1c1"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,5 @@
+<archimate:BusinessEvent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Aanmelding / verwijzing"
+    id="1f236a3e"
+    documentation="Er is een formulier voor verwijzers om een cliënt bij een Centrale Toegang aan te melden.&#xD;&#xA;Verwijzers: MEE, huisarts, Wijkzorgnetwerk, kliniek, behandelaar (psychiater).&#xD;&#xA;"/>

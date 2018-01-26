@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="f4f9c973"
+    documentation="Backoffice registreert in RIS Wijkzorg de beslissing die genomen is nav het indicatie-advies over een door wijkzorg aangevraagde maatwerkvoorziening">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_84ba871a.xml#84ba871a"/>
+  <target
+      xsi:type="archimate:BusinessFunction"
+      href="BusinessFunction_2113e184.xml#2113e184"/>
+</archimate:ServingRelationship>

@@ -1,0 +1,13 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Indicatie-adviezen (AVA)"
+    id="87350665-e9b3-4b69-8dc1-e958b5059317"
+    documentation="Volgens de Domeinarchitectuur Zorg 2017: &quot;Wmo-Ned heeft een koppeling met (het systeem van) de Indicatiesteller (nu MO-zaak) voor het ontvangen van indicatie-adviezen.&quot;">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_cbac11c9-8943-45db-b8a6-dddf20e3cd89.xml#cbac11c9-8943-45db-b8a6-dddf20e3cd89"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_65726048.xml#65726048"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,13 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Opdrachten verzending brieven en vervoerspassen"
+    id="3983cc56-aa70-4ceb-8bed-e905e4ddf04f"
+    documentation="Volgens de Domeinarchitectuur Zorg 2017: &quot;Wmo-Ned heeft een download-functionaliteit tbv het Verzendbedrijf (nu Van der Most) voor opdrachten om brieven en vervoerspassen naar cliënten te sturen.&quot;">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_61cd83ce-19c3-41df-8b7b-0708b9dce342.xml#61cd83ce-19c3-41df-8b7b-0708b9dce342"/>
+  <target
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_a59163e9.xml#a59163e9"/>
+</archimate:ServingRelationship>

@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Terugbelverzoeken"
+    id="cd10b069-908a-4d06-8c69-b61202778831">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_441e8e10.xml#441e8e10"/>
+  <target
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_f9c152ce.xml#f9c152ce"/>
+</archimate:ServingRelationship>

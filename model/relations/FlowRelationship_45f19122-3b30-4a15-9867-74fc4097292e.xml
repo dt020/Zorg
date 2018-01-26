@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="45f19122-3b30-4a15-9867-74fc4097292e"
+    documentation="Volgens de Domeinarchitectuur Zorg 2017: &quot;Wmo-Ned heeft een berichtenkoppeling met het Wmo Portaal voor indicatieadviezen voor AOV en HbH.&quot;">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_65726048.xml#65726048"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_dcb6c07f.xml#dcb6c07f"/>
+</archimate:FlowRelationship>

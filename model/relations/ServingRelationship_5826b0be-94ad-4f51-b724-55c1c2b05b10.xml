@@ -1,0 +1,13 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Eigen bijdrage"
+    id="5826b0be-94ad-4f51-b724-55c1c2b05b10"
+    documentation="Volgens de Domeinarchitectuur Zorg 2017: &quot;Wmo-Ned heeft een bestandskoppeling met (het systeem van) het CAK om opdracht te geven voor het bepalen en innen van een eigen bijdrage. Dit is een bestandskoppeling: Wmo-Ned genereert bestanden die een medewerker handmatig uploadt in de portal van het CAK.&quot;">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_8bd2854e-e128-4c19-ad41-86e119e1fabe.xml#8bd2854e-e128-4c19-ad41-86e119e1fabe"/>
+  <target
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_f9c152ce.xml#f9c152ce"/>
+</archimate:ServingRelationship>

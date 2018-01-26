@@ -1,0 +1,5 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Backoffice"
+    id="f9c152ce"
+    documentation="De Backoffice zorgt voor&#xD;&#xA;de afhandeling van aanvragen, declaraties, facturen, mutaties (waaronder verhuizingen en overlijdens) en informatievragen (die binnenkomen via het Sociaal Loket, de WMO Helpdesk, Team Klachten)&#xD;&#xA;het aansturen van leveranciers en zorgaanbieders&#xD;&#xA;het informeren van de SVB in verband met een toegekend persoonlijk budget&#xD;&#xA;het informeren van het CAK voor het bepalen en innen van een eigen bijdrage&#xD;&#xA;&#xD;&#xA;Wiebe 20151117: &quot;De backoffice werkt ook met RIS voor Afhandeling aanvragen (om aan te geven wat voor beslissing er is genomen op een verzoek om een maatwerkindicatie)&quot;"/>

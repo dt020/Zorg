@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IntensiveCare"
+    id="1b1b29c9"
+    documentation="IntensiveCare is het systeem voor werkverdeling van de Backoffice, gebouwd in MS Access, met instelbare actielijsten en regels voor prioritering."/>

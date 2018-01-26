@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Afhandeling aanvragen, facturen, mutaties, informatievragen"
+    id="2113e184"
+    documentation="Onder het afhandelen van facturen valt ook het fiatteren door accounthouders van betaalopdrachten aan aanbieders / leveranciers.&#xD;&#xA;&#xD;&#xA;Jochem 20151123: &quot;De verantwoordelijkheid van de BO “Afhandeling aanvragen en facturen” vind ik niet de lading dekken. ... De BO handelt daarnaast nog een groot aantal mutaties (met name overlijden / verhuizen) en informatievragen.&quot;"/>

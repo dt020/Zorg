@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Vrije plek service"
+    id="3e95237b"
+    documentation="Applicatieservice van Trajectus. Aanbieders van Verblijfzorg sturen vanuit hun eigen applicatie een berichtje naar deze service om een vrije plek te melden. Zodat de Veldregisseur een geschikte cliënt voor die plek kan zoeken."/>

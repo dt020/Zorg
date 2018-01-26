@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="a5d7a324-b40a-49ad-a32c-fdcf6b561ec1"
+    documentation="Volgens de Domeinarchitectuur Zorg 2017: &quot;Voor cliënten die bellen naar de Wmo Helpdesk of die bij het Sociaal Loket komen kan de medewerker in Wmo-Ned informatie over de Wmo voorzieningen van de cliënt inzien.&quot;">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_dcb6c07f.xml#dcb6c07f"/>
+  <target
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_84a6b9c8.xml#84a6b9c8"/>
+</archimate:ServingRelationship>

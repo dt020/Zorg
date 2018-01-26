@@ -1,0 +1,5 @@
+<archimate:BusinessEvent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cliënt meldt zich bij het loket"
+    id="44b47d7f"
+    documentation="Loketmedewerker vraagt waarmee hij kan helpen.&#xD;&#xA;&#xD;&#xA;Afhankelijk van de vraag kan de cliënt een kort gesprek (10 minuten) krijgen met een medewerker van WPI, iemand van de GGD of iemand van de Centrale Toegang Maatschappelijke Opvang. Meerdere geprekjes is ook mogelijk."/>

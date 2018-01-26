@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="3c24803d-dd53-4b3b-8a50-3f2ce23ba1fa"
+    documentation="Volgens de Domeinarchitectuur Zorg 2017: &quot;Wmo-Ned heeft een koppeling naar het Gemeentelijke Gegevensknooppunt voor uitwisseling van iWmo berichten met zorgaanbieders.&quot;">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_12d3b6c6.xml#12d3b6c6"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_65726048.xml#65726048"/>
+</archimate:FlowRelationship>

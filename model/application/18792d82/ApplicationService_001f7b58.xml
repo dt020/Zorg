@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verzoek om Toewijzing Wmo315"
+    id="001f7b58"
+    documentation="Jochem: Nu gebruiken we vanuit Wmo Portaal en vanuit RIS Wijkzorg het Aaanvraag Voorziening Advies (AVA) bericht. Daar zit iets meer informatie in dan in de huidige iWMO 315..."/>

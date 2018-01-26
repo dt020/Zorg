@@ -1,0 +1,40 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="20170511 Betrokkenen bij Activering en Participatie, huidige situatie 2017"
+    id="90d6048e">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="cecc4f1a"
+      targetConnections="57a18203">
+    <bounds
+        x="105"
+        y="58"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_433cb840.xml#433cb840"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="6a10bd0b">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="57a18203"
+        source="6a10bd0b"
+        target="cecc4f1a">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_422cf9bc.xml#422cf9bc"/>
+    </sourceConnections>
+    <bounds
+        x="91"
+        y="192"
+        width="148"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_e0756236.xml#e0756236"/>
+  </children>
+</archimate:ArchimateDiagramModel>

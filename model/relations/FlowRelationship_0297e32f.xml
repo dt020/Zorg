@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="0297e32f"
+    documentation="Volgens de Domeinarchitectuur Zorg 2017: &quot;RIS Wijkzorg heeft een bestandskoppeling met Wmo-Ned voor toekenningen van algemene voorzieningen t.b.v. de factuurcontrole.&quot;">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_84ba871a.xml#84ba871a"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_65726048.xml#65726048"/>
+</archimate:FlowRelationship>
