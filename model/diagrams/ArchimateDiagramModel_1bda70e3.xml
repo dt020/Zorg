@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Applicatielandschap tbv Jeugdhulp rondom Wmo-Ned, huidige situatie (2017)"
+    name="Applicatielandschap tbv Jeugdhulp rondom Wmo-Ned, huidige situatie (2018)"
     id="1bda70e3">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -198,20 +198,6 @@
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_da2e89a5.xml#da2e89a5"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="88ed5d11"
-        source="d6411b2a"
-        target="d11f5636">
-      <bendpoints
-          startX="48"
-          startY="-111"
-          endX="-480"
-          endY="105"/>
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_8111926f.xml#8111926f"/>
     </sourceConnections>
     <bounds
         x="564"
@@ -430,19 +416,6 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_f28539e8.xml#f28539e8"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="d11f5636"
-      targetConnections="88ed5d11">
-    <bounds
-        x="1092"
-        y="72"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessRole"
-        href="BusinessRole_a59163e9.xml#a59163e9"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
