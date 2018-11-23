@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Applicatielandschap tbv Zorg rondom Wmo-Ned, huidige situatie (2017)"
+    name="Applicatielandschap tbv Zorg rondom Wmo-Ned, huidige situatie (2018)"
     id="216ee572">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -55,7 +55,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="37839604"
-      targetConnections="62639dec dd9fe43d 880a8be9 916bc128 8f93ec5d a9cdac5d 4a7026b2 69ed3321">
+      targetConnections="62639dec dd9fe43d 880a8be9 916bc128 8f93ec5d a9cdac5d 4a7026b2 69ed3321 79cdf147-02c4-47f9-b309-a430b803825d">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="4fcf74c9"
@@ -117,14 +117,14 @@
         target="d6ae6a81">
       <bendpoints
           startX="12"
-          startY="153"
+          startY="201"
           endX="276"
-          endY="-58"/>
+          endY="-87"/>
       <bendpoints
           startX="-252"
-          startY="153"
+          startY="201"
           endX="12"
-          endY="-58"/>
+          endY="-87"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_d2bd6a3d.xml#d2bd6a3d"/>
@@ -136,14 +136,14 @@
         target="8dc35fc6">
       <bendpoints
           startX="12"
-          startY="153"
+          startY="201"
           endX="145"
-          endY="-58"/>
+          endY="-87"/>
       <bendpoints
           startX="-120"
-          startY="153"
+          startY="201"
           endX="13"
-          endY="-58"/>
+          endY="-87"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_38a673c9.xml#38a673c9"/>
@@ -531,21 +531,21 @@
         target="37839604">
       <bendpoints
           startX="-1"
-          startY="-82"
+          startY="-63"
           endX="-528"
-          endY="129"/>
+          endY="225"/>
       <bendpoints
           startX="515"
-          startY="-82"
+          startY="-63"
           endX="-12"
-          endY="129"/>
+          endY="225"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_bb57712b.xml#bb57712b"/>
     </sourceConnections>
     <bounds
         x="37"
-        y="499"
+        y="576"
         width="120"
         height="55"/>
     <archimateElement
@@ -562,21 +562,21 @@
         target="37839604">
       <bendpoints
           startX="-1"
-          startY="-82"
+          startY="-63"
           endX="-396"
-          endY="129"/>
+          endY="225"/>
       <bendpoints
           startX="383"
-          startY="-82"
+          startY="-63"
           endX="-12"
-          endY="129"/>
+          endY="225"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_092a992a.xml#092a992a"/>
     </sourceConnections>
     <bounds
         x="169"
-        y="499"
+        y="576"
         width="120"
         height="55"/>
     <archimateElement
@@ -593,22 +593,22 @@
         source="8dc35fc6"
         target="37839604">
       <bendpoints
-          startX="-11"
-          startY="-82"
-          endX="-144"
-          endY="129"/>
+          startX="-23"
+          startY="-63"
+          endX="-156"
+          endY="225"/>
       <bendpoints
           startX="121"
-          startY="-82"
+          startY="-63"
           endX="-12"
-          endY="129"/>
+          endY="225"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_4276a843.xml#4276a843"/>
     </sourceConnections>
     <bounds
         x="431"
-        y="499"
+        y="576"
         width="120"
         height="55"/>
     <archimateElement
@@ -635,7 +635,7 @@
     </sourceConnections>
     <bounds
         x="564"
-        y="499"
+        y="576"
         width="120"
         height="55"/>
     <archimateElement
@@ -652,22 +652,22 @@
         source="d6ae6a81"
         target="37839604">
       <bendpoints
-          startX="-12"
-          startY="-82"
-          endX="-276"
-          endY="129"/>
+          startX="-24"
+          startY="-63"
+          endX="-288"
+          endY="225"/>
       <bendpoints
           startX="252"
-          startY="-82"
+          startY="-63"
           endX="-12"
-          endY="129"/>
+          endY="225"/>
       <archimateRelationship
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_fdc824b7.xml#fdc824b7"/>
     </sourceConnections>
     <bounds
         x="300"
-        y="499"
+        y="576"
         width="120"
         height="55"/>
     <archimateElement
@@ -712,5 +712,63 @@
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_121182af.xml#121182af"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="182fdb78-e917-465c-9a8e-dff0aed4134d">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="79cdf147-02c4-47f9-b309-a430b803825d"
+        source="182fdb78-e917-465c-9a8e-dff0aed4134d"
+        target="37839604">
+      <bendpoints
+          startX="347"
+          endX="-36"
+          endY="141"/>
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_acdd76e2-aa27-4a80-bf95-6d7e40204299.xml#acdd76e2-aa27-4a80-bf95-6d7e40204299"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="9e16e8eb-04d3-4584-8c1e-79b57c0e5b47"
+        source="182fdb78-e917-465c-9a8e-dff0aed4134d"
+        target="fc63373c-ff0c-465f-a9c8-e4bd050f0773">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_6fcedb67.xml#6fcedb67"/>
+    </sourceConnections>
+    <bounds
+        x="181"
+        y="429"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_ead16a6c.xml#ead16a6c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="fc63373c-ff0c-465f-a9c8-e4bd050f0773"
+      targetConnections="9e16e8eb-04d3-4584-8c1e-79b57c0e5b47">
+    <bounds
+        x="37"
+        y="429"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_480d6ee4.xml#480d6ee4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="fc3aa4f5-c72d-4760-8522-1bfe1dcf379a"
+      textAlignment="1"
+      content="Gemeente Amsterdam&#xD;&#xA;Applicatielandschap Zorg rondom Wmo-Ned&#xD;&#xA;Huidige situatie (2018)&#xD;&#xA;Versie 20181123">
+    <bounds
+        x="37"
+        y="36"
+        width="192"
+        height="91"/>
   </children>
 </archimate:ArchimateDiagramModel>
