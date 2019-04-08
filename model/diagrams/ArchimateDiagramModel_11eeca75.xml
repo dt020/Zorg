@@ -17,18 +17,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="641ac1e3">
-    <bounds
-        x="-612"
-        y="174"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessProcess"
-        href="BusinessProcess_3e56c9bb.xml#3e56c9bb"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="ecc1d428">
     <bounds
         x="-480"
@@ -668,5 +656,17 @@
     <archimateElement
         xsi:type="archimate:ApplicationFunction"
         href="ApplicationFunction_b9042179.xml#b9042179"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="1a0be59b-f28d-4150-93b9-b0f3489a369c">
+    <bounds
+        x="-612"
+        y="176"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_3e56c9bb.xml#3e56c9bb"/>
   </children>
 </archimate:ArchimateDiagramModel>
