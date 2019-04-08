@@ -1,5 +1,0 @@
-<archimate:ApplicationComponent
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Werkzoeker"
-    id="2a998dee"
-    documentation="Volgens Matchen op vacatures http://intranet.amsterdam.nl/publish/pages/155848/matchen_op_vacatures_v1_0.pdf: &quot;In RAAK en de webapplicatie Werkzoeker worden vacatures afkomstig uit het WBS systeem van UWV getoond. Alle vacatures die in RAAK getoond worden zijn afkomstig uit WBS. Ze worden in WBS door medewerkers van WSP Groot-Amsterdam en andere UWV vestigingen geregistreerd.&#xD;&#xA;...&#xD;&#xA;De vacatures van WSP Groot-Amsterdam zijn ook in te zien in Werkzoeker. Werkzoeker is bereikbaar via de url https://www.iedereenwerktmee.nl/werkzoeker.&quot;&#xD;&#xA;&#xD;&#xA;Aan de broncode te zien is dit een Oracle Apex applicatie."/>
