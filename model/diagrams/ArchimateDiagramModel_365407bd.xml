@@ -5,18 +5,6 @@
     id="365407bd">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="90d65d05">
-    <bounds
-        x="-360"
-        y="96"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessRole"
-        href="BusinessRole_130948e0.xml#130948e0"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="85d1929e">
     <bounds
         x="-360"
@@ -869,5 +857,17 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_774312c4.xml#774312c4"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="cfbe8c97-455d-4281-8076-3130a50d3818">
+    <bounds
+        x="-360"
+        y="96"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_130948e0.xml#130948e0"/>
   </children>
 </archimate:ArchimateDiagramModel>

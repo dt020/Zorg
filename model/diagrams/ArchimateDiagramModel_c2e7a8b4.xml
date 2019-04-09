@@ -6,18 +6,6 @@
     documentation="Schets van de route:&#xD;&#xA;Cliënt komt binnen bij een van de MaDi's&#xD;&#xA;Cliënt wordt toegelaten&#xD;&#xA;Klanthouder wordt toegewezen&#xD;&#xA;Klanthouder wijst een ondersteuningstraject van een aanbieder toe.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="90d65d05">
-    <bounds
-        x="-492"
-        y="168"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessRole"
-        href="BusinessRole_130948e0.xml#130948e0"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="6f3bf6bc">
     <bounds
         x="827"
@@ -811,5 +799,17 @@
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_c088063b.xml#c088063b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="c75a99dc-5231-450b-a367-6b6f2af11394">
+    <bounds
+        x="-492"
+        y="168"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_130948e0.xml#130948e0"/>
   </children>
 </archimate:ArchimateDiagramModel>
